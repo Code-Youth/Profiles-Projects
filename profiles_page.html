@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- local CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="action.js"></script>
+
+    <script src="https://unpkg.com/papaparse@5.3.1/papaparse.min.js"></script>
+
+
+    <title>Student Profiles | Code Youth</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+        </script>
+
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<!-- body starts here -->
+
+<body class="container-fluid m-1">
+    <div id="header"></div>
+
+    <!-- grid for profiling -->
+
+    <!-- row one of profile -->
+
+    <!-- for ALI -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 pb-3 mt-0">
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEAlE_Yvl_d6g/profile-displayphoto-shrink_400_400/0/1640026708989?e=1645660800&v=beta&t=dEbLKD3t6HXfXW08kVk5X2-v00xjwRX3q7F0CDvsY8M"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <a class="card-title" href="">
+                        <h5 class="card-title">Ali Alhattab</h5>
+                    </a>
+                    <a class=location href="">
+                        <h5 class="location">Ottawa, ON</h5>
+                    </a>
+                    <div class="img_container">
+                        <a href="https://github.com/AliAlhattab" target="_blank">
+                            <button class="button"> GitHub </button>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alialhattab/" target="_blank">
+                            <button class="button"> LinkedIn </button>
+                        </a>
+                        <p>I am a high-energy individual with a detail-oriented and
+                            people-friendly nature. True team player always willing
+                            to go the extra mile. Pursuing a position in the IT sector
+                            where exceptional skills are valued.</p>
+                    </div>
+
+                    <div class="d-grid gap-2 col-6 mx-auto"><a href="https://alialhattab-portfolio.netlify.app/"
+                            target="_blank"><button class="button1 w-100 btn btn-primary">Portfolio</button></a></div>
+                </div> <!-- div card-body close-->
+            </div> <!-- div card h-100 close-->
+
+        </div> <!-- div class col close-->
+
+        <!-- For GURSHEEN -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE7UZlwJHEkIg/profile-displayphoto-shrink_400_400/0/1639791051679?e=1645660800&v=beta&t=S8HEHH8hXdfw6SkGccn7EnCaE03pcsDNqMrj1RXn918"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <a class="card-title" href="">
+                        <h5 class="card-title">Gursheen Kaur</h5>
+                    </a>
+                    <a class=location href="">
+                        <h5 class="location">Ottawa, ON</h5>
+                    </a>
+                    <div class="img_container">
+                        <a href="https://www.gursheen.dev/" target="_blank">
+                            <button class="button"> GitHub </button>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gursheenk/" target="_blank">
+                            <button class="button"> LinkedIn </button>
+                        </a>
+                        <p>I am a Web Developer, Cyber-Security analyst, Mother and a natural problem solver. My
+                            multi-tasking skills make me more rigid and positive about my career goals.</p>
+                    </div>
+
+                    <div class="d-grid gap-2 col-6 mx-auto"><a href="https://gursheens.github.io/"
+                            target="_blank"><button class="button1 w-100 btn btn-primary">Portfolio</button></a>
+                    </div>
+                </div>
+                <!--div card-body close -->
+            </div>
+            <!--div card-100 close -->
+
+        </div>
+        <!--div class col close -->
+
+        <!-- For JUN -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://media-exp1.licdn.com/dms/image/C5603AQHZHoP7ELYOiw/profile-displayphoto-shrink_400_400/0/1538099459124?e=1645660800&v=beta&t=Mkbre6c1DuFvs5RQPoFQ-qobnoZmf1HVkxlmSbOFrM0"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <a class="card-title" href="">
+                        <h5 class="card-title">Jun Lu</h5>
+                    </a>
+                    <a class=location href="">
+                        <h5 class="location">Toronto, ON</h5>
+                    </a>
+                    <div class="img_container">
+                        <a href="https://github.com/AnfieldCat" target="_blank">
+                            <button class="button"> GitHub </button>
+                        </a>
+                        <a href="https://www.linkedin.com/in/junrlu/" target="_blank">
+                            <button class="button"> LinkedIn </button>
+                        </a>
+                        <p>A self-motivated and detail-oriented professional
+                            offering technical and analytical experiences in
+                            fast-paced dynamic financial institutions.</p>
+                    </div>
+
+                    <div class="d-grid gap-2 col-6 mx-auto"><button
+                            class="button1 w-100 btn btn-primary">Portfolio</button></div>
+                </div> <!-- div card-body close-->
+
+            </div> <!-- div h-100 close-->
+
+        </div> <!-- div class col close -->
+    </div> <!-- div row one close -->
+
+
+    <!-- row two of profile -->
+
+    <!-- For SHAYA -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 pb-3">
+        <div class="col">
+            <div class="card h-100">
+                <img src="images\Shaya.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <a class="card-title" href="">
+                        <h5 class="card-title">Shaya Mukhtar</h5>
+                    </a>
+                    <a class=location href="">
+                        <h5 class="location">Ottawa, ON</h5>
+                    </a>
+                    <div class="img_container">
+                        <a href="https://github.com/ShayaMukhtar" target="_blank">
+                            <button class="button"> GitHub </button>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shayamukhtar/" target="_blank">
+                            <button class="button"> LinkedIn </button>
+                        </a>
+                        <p>Having spent a large chunk of my life in art school,
+                            I've finally found my passion at the crossroads of design
+                            and technology. I aim to secure an IT position in a
+                            recognized organization to further my education,
+                            experience, and skills. </p>
+                    </div>
+
+                    <div class="d-grid gap-2 col-6 mx-auto"><a href="https://shayas-portfolio.netlify.app/"
+                            target="_blank"><button class="button1 w-100 btn btn-primary">Portfolio</button></a>
+                    </div>
+                </div> <!-- div card-body close-->
+            </div> <!-- div h-100 close-->
+
+        </div> <!-- div class col close-->
+
+        <!-- For PRISCA -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFVLcwyQg7PJQ/profile-displayphoto-shrink_200_200/0/1640371511138?e=1650499200&v=beta&t=vbxbX-t9iMncz8bbTMIVvyr-8pOTAicHodSEQUI_UVo"
+                    class="card-img-top" alt="priscapicture">
+                <div class="card-body">
+
+                    <a class="card-title" href="">
+                        <h5 class="card-title">Prisca Azulphar</h5>
+                    </a>
+                    <a class=location href="">
+                        <h5 class="location">Ottawa, ON</h5>
+                    </a>
+                    <div class="img_container">
+                        <a href="https://github.com/priscaaz" target="_blank"><button class="button"> GitHub
+                            </button></a>
+                        <a href="https://www.linkedin.com/in/priscaaulphar/" target="_blank"><button class="button">
+                                LinkedIn </button></a>
+                        <p>My name is Prisca, a young entrepreneur that loves to work hard and that is passionate and
+                            perseververante. I recently finished a 3 month bootcamp at code youth that was teaching
+                            different languages in web development. I am in the process of building my own company.
+                        </p>
+
+
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto"><a href="https://priscaaz.github.io/"
+                            target="_blank"><button class="button1 w-100 btn btn-primary">Portfolio</button></a></div>
+                </div> <!-- div card-body close -->
+            </div> <!-- div h-100 close-->
+
+        </div> <!-- div class col close-->
+
+        <!-- For STEPHEN -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="images\stephen.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <a class="card-title" href="">
+                        <h5 class="card-title">Stephan Ward</h5>
+                    </a>
+                    <a class=location href="">
+                        <h5 class="location">Brockville, ON</h5>
+                    </a>
+                    <div class="img_container">
+                        <a href="https://github.com/robotic-gamer" target="_blank"><button class="button"> GitHub
+                            </button></a>
+                        <a href="https://www.linkedin.com/in/stephen-ward-robotic/" target="_blank"><button
+                                class="button"> LinkedIn </button></a>
+                        <p>The code Stephen wrote allows people to make a game of breakout with arbitrary text instead
+                            of normal blocks. The example shown is Stephens portfolio gamified using this code.
+
+                        </p>
+
+
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto"><button
+                            class="button1 w-100 btn btn-primary">Portfolio</button></div>
+                </div>
+                <!--div for card-body close -->
+            </div>
+            <!--div h-100 close-->
+
+        </div>
+        <!--div class col close-->
+    </div> <!-- div row two close-->
+
+
+    <!-- row three of profile -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 pb-3">
+
+        <!-- For MAJID MUKHTAR -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <a class="card-title" href="">
+                        <h5 class="card-title">Majid Mukhtar</h5>
+                    </a>
+                    <a class=location href="">
+                        <h5 class="location">Ottawa, ON</h5>
+                    </a>
+                    <div class="img_container">
+                        <a href="https://github.com/MajidMukhtar?tab=repositories" target="_blank"><button
+                                class="button"> GitHub </button></a>
+                        <a href="https://linkedin.com/in/majid-mukhtar" target="_blank"><button class="button"> LinkedIn
+                            </button></a>
+                        <p>I am junior web developer that enjoy creating solutions to solve problems that I care about.
+                            I'm always learning and trying to expand my knowledge as a programmer.</p>
+
+
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto"><a href="https://majidmukhtar.dev/" target="_blank"><button
+                                class="button1 w-100 btn btn-primary">Portfolio</button></a>
+                    </div>
+                </div>
+                <!--div for card-body close-->
+            </div>
+            <!--div for h-100 close-->
+
+
+        </div> <!-- div class col close-->
+
+        <!-- For CARTER GILLIS -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <a class="card-title" href="">
+                        <h5 class="card-title">Carter Gillis</h5>
+                    </a>
+                    <a class=location href="">
+                        <h5 class="location">Oshawa, ON</h5>
+                    </a>
+                    <div class="img_container">
+                        <button class="button"> GitHub </button>
+                        <a href="https://www.linkedin.com/in/carter-j-gillis/" target="_blank"><button class="button">
+                                LinkedIn </button></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iure illum! Ut labore
+                            expedita odit magnam accusamus quaerat tempora. Distinctio architecto, mollitia aut rem
+                            voluptas autem minus repellendus. Sint, modi.</p>
+
+
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto"><button
+                            class="button1 w-100 btn btn-primary">Portfolio</button></div>
+                </div>
+                <!--div for card-body close-->
+
+            </div> <!-- div for h-100 close-->
+
+        </div>
+        <!--div class col close -->
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="data:image/jpeg;base64,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"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <a class="card-title" href="">
+                        <h5 class="card-title">Future Students</h5>
+                    </a>
+                    <a class=location href="">
+                        <h5 class="location">Ottawa, ON</h5>
+                    </a>
+                    <div class="img_container">
+                        <button class="button"> GitHub </button>
+                        <button class="button"> LinkedIn </button>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iure illum! Ut labore
+                            expedita odit magnam accusamus quaerat tempora. Distinctio architecto, mollitia aut rem
+                            voluptas autem minus repellendus. Sint, modi.</p>
+
+
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto"><button
+                            class="button1 w-100 btn btn-primary">Portfolio</button></div>
+                </div>
+                <!--div for card-body close-->
+
+            </div>
+            <!--div h-100 close-->
+
+        </div>
+        <!--div class col close-->
+    </div>
+    <!--div row three close-->
+
+    <!-- grid for profile close-->
+
+    <div id="footer"></div>
+    <button onclick="readProfilesCsv()"> Read in the csv!!</button>
+
+</body>
+
+</html>
