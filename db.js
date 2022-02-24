@@ -66,11 +66,11 @@ const users = [
     {
         img: 'https://www.seekpng.com/png/full/356-3562377_personal-user.png',
         name: 'Carter Gillis',
-        bio: 'some text',
+        bio: 'Junior Web Developer',
         location: 'Oshawa, ON',
         github: 'link',
         linkedin: 'https://www.linkedin.com/in/carter-j-gillis/',
-        portfolio: 'link'
+        portfolio: 'https://cartergillis.dev/'
     },
     {
         img: 'https://www.seekpng.com/png/full/356-3562377_personal-user.png',

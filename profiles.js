@@ -36,9 +36,9 @@ function createProfileCard(user) {
                 <p class="card-text">${user.bio}</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a type="button" class="btn btn-sm btn-outline-secondary" href="${user.github}">github</a>
-                    <a type="button" class="btn btn-sm btn-outline-secondary" href="${user.linkedin}">linkedin</a>
-                    <a type="button" class="btn btn-sm btn-outline-secondary" href="${user.portfolio}">portfolio</a>
+                    <a type="button" class="btn btn-sm btn-outline-secondary" href="${user.github}" target="_blank">github</a>
+                    <a type="button" class="btn btn-sm btn-outline-secondary" href="${user.linkedin}" target="_blank">linkedin</a>
+                    <a type="button" class="btn btn-sm btn-outline-secondary" href="${user.portfolio}" target="_blank">portfolio</a>
                     </div>
                 </div>
             </div>
