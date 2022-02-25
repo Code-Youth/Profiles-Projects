@@ -225,6 +225,11 @@ a {
  }
 
  /* Footer Starts Here */
+
+ footer p {
+   font-size: 18px;
+ }
+
 .footer-box {
   padding: 50px 0;
   text-align: center;
@@ -248,10 +253,7 @@ ul.social_icon li a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-ul.social_icon li i {
-  color: #000 !important;
-  line-height:35px;
-}
+
 
 .ul.social_icon li a:hover {
   color: #0466c8 !important;
@@ -261,15 +263,7 @@ ul.social_icon li {
   float: left;
   margin: 0 5px;
 }
-.footer_bottom {
-  padding: 15px 0;
-}
-.footer_bottom p.crp {
-  float: left;
-  margin: 0;
-  color: #8d8d8c;
-  font-size: 15px;
-}
+
 ul.bottom_menu li a {
   color: #8d8d8c;
 }

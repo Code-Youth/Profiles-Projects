@@ -1,7 +1,7 @@
 //  user database
 const users = [
     {
-        img: 'https://media-exp1.licdn.com/dms/image/C4D03AQE7UZlwJHEkIg/profile-displayphoto-shrink_400_400/0/1639791051679?e=1645660800&v=beta&t=S8HEHH8hXdfw6SkGccn7EnCaE03pcsDNqMrj1RXn918',
+        img: 'https://media-exp1.licdn.com/dms/image/C4D03AQE7UZlwJHEkIg/profile-displayphoto-shrink_800_800/0/1639791051679?e=1651104000&v=beta&t=FpEZDA-AKuBbmQzMVs7vPnCC-4g-WHxbnMBPexax_4s',
         name: 'Gursheen Chawla',
         bio: 'I am a Web Developer, Cyber-Security analyst, Mother and a natural problem solver. My multi-tasking skills make me more rigid and positive about my career goals.',
         location: 'Ottawa, ON',
@@ -19,7 +19,7 @@ const users = [
         portfolio: 'https://shayas-portfolio.netlify.app/'
     },
     {
-        img: 'https://media-exp1.licdn.com/dms/image/C4E03AQEAlE_Yvl_d6g/profile-displayphoto-shrink_400_400/0/1640026708989?e=1645660800&v=beta&t=dEbLKD3t6HXfXW08kVk5X2-v00xjwRX3q7F0CDvsY8M',
+        img: 'https://media-exp1.licdn.com/dms/image/C4E03AQEAlE_Yvl_d6g/profile-displayphoto-shrink_800_800/0/1640026708989?e=1651104000&v=beta&t=tl0XOiPJjdK3SXiARQV-ddellGd94QOCBMN7cpIaZAU',
         name: 'Ali Alhattab',
         bio: 'I am a high-energy individual with a detail-oriented and people-friendly nature. True team player always willing to go the extra mile. Pursuing a position in the IT sector where exceptional skills are valued.',
         location: 'Ottawa, ON',
@@ -28,7 +28,7 @@ const users = [
         portfolio: 'https://alialhattab-portfolio.netlify.app/'
     },
     {
-        img: 'https://media-exp1.licdn.com/dms/image/C5603AQHZHoP7ELYOiw/profile-displayphoto-shrink_400_400/0/1538099459124?e=1645660800&v=beta&t=Mkbre6c1DuFvs5RQPoFQ-qobnoZmf1HVkxlmSbOFrM0',
+        img: 'https://media-exp1.licdn.com/dms/image/C5603AQHZHoP7ELYOiw/profile-displayphoto-shrink_800_800/0/1538099459124?e=1651104000&v=beta&t=XUn4zhHA7mZTXF-vF1zE5A-p6nq-Hw3ZnEpCeNhqMKY',
         name: 'Jun Lu',
         bio: 'A self-motivated and detail-oriented professional fast-paced dynamic financial institutions.',
         location: 'Toronto, ON',
@@ -72,15 +72,7 @@ const users = [
         linkedin: 'https://www.linkedin.com/in/carter-j-gillis/',
         portfolio: 'https://cartergillis.dev/'
     },
-    {
-        img: 'https://www.seekpng.com/png/full/356-3562377_personal-user.png',
-        name: 'Future Students',
-        bio: 'some text',
-        location: 'area',
-        github: 'link',
-        linkedin: 'link',
-        portfolio: 'link'
-    },
+
 
 ]
 
