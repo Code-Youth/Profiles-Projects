@@ -27,21 +27,21 @@ const projects = [
         img: 'images/project4.png',
         name: 'iTATOON',
         user: 'Prisca Azulphar',
-        desc: 'some text',
+        desc: 'Sometimes it is hard to watch good anime and could take minutes to figure out what you want to watch. If you do not want advice from internet and want a real passionate people advise on your upcoming favorite anime. This website helps in building connections others with same interest.',
         link: 'https://sublime-site.webflow.io/'
     },
     {
-        img: 'https://www.seekpng.com/png/full/356-3562377_personal-user.png',
-        name: 'Project Name',
+        img: 'images/project5.png',
+        name: 'Gamified Portfolio',
         user: 'Stephan Ward',
-        desc: 'some text',
-        link: 'paste the url here'
+        desc: 'This gamified portfolio is created with javascript to turn it into a breakout game',
+        link: 'https://admiring-lewin-fbb6aa.netlify.app/'
     },
     {
         img: 'images/project6.png',
         name: 'Teammeet',
         user: 'Majid Mukhtar & Carter Gillis',
-        desc: 'This is a web application which allows people to signup and meet in person to play a sport',
+        desc: 'A web application that helps people find team mates for sports games. You can create a game post or search for one already created. You can also specify the skill level of games when creating and filter this when searching.',
         link: 'https://teammeet.ca/'
     },
 

@@ -39,11 +39,11 @@ const users = [
     {
         img: 'images/stephen.jfif',
         name: 'Stephen Ward',
-        bio: 'some textThe code Stephen wrote allows people to make a game of breakout with arbitrary text instead of normal blocks. The example shown is Stephens portfolio gamified using this code.',
+        bio: 'The code Stephen wrote allows people to make a game of breakout with arbitrary text instead of normal blocks. The example shown is Stephens portfolio gamified using this code.',
         location: 'Brockville, ON',
         github: 'https://github.com/robotic-gamer',
         linkedin: 'https://www.linkedin.com/in/stephen-ward-robotic/',
-        portfolio: 'link'
+        portfolio: 'https://admiring-lewin-fbb6aa.netlify.app/'
     },
     {
         img: 'https://media-exp1.licdn.com/dms/image/C4D03AQFVLcwyQg7PJQ/profile-displayphoto-shrink_200_200/0/1640371511138?e=1650499200&v=beta&t=vbxbX-t9iMncz8bbTMIVvyr-8pOTAicHodSEQUI_UVo',
@@ -66,7 +66,7 @@ const users = [
     {
         img: 'https://www.seekpng.com/png/full/356-3562377_personal-user.png',
         name: 'Carter Gillis',
-        bio: 'Junior Web Developer',
+        bio: 'I am a junior developer who enjoys overcoming challenges and learning new ways of doing things. I take pride in having a variety of skills ranging from programming to 3d modeling.',
         location: 'Oshawa, ON',
         github: 'link',
         linkedin: 'https://www.linkedin.com/in/carter-j-gillis/',
